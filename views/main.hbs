@@ -1,0 +1,46 @@
+<div class="container">
+    <img class="ragnarok-img" src='ragnarok.jpg' />
+    <div class="first-p">
+        <p>As an ecommerce business with a new concept, NUTS&oacute;LA was in need of custom content. So they reached out to Ragnarok to produce their videos, code, and design their ecommerce subscription website, and handle their email strategy and creative.</p>
+    </div>
+
+    <div class="second-p">
+        <p>Ragnarok also produced content for NUTS&oacute;LA's Kickstarter. To get a taste of "The Original DIY Superfood Bar&#8482;" and more of our work, click the button below</p>
+    </div>
+
+       <div class="brands">
+        {{#each data.products}}
+            <div class="brand">
+                <div>
+                     <img src={{this.pngFileName}} alt={{this.name}}/>
+                </div>
+                <div> 
+                    <span class="brand-name">{{this.brand}} </span>
+                </div>
+                <div>
+                     <a href={{this.url}}target="_blank">{{this.name}}</a>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+
+    <hr>
+
+    <div class="center-btn">
+      <button>LEARN MORE</button>
+    </div>
+
+    <div class="social-media-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram-square"></i>
+    </div>
+
+     <footer>
+        <p>&copy; 2019 Ragnarok Inc. All rights reserved.</p>
+        <p>481 8th Avenue, #1012, New York, NY 10001</p>
+        <p class="unsub">Not interested in receiving updates from us? <a href="#">Unsubscribe</a></p>
+    </footer>
+</div>
+
+

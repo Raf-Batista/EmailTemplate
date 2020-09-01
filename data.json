@@ -1,0 +1,23 @@
+{
+    "products" : [{
+        "imageUrl" : "https://cdn.shopify.com/s/files/1/0090/2823/9465/products/nutsola_peanut_900x900_d06b5956-a671-416a-a5f4-e9ddb197571a_720x.png?v=1560538770",
+        "name" : "Peanut Butter",
+        "pngFileName": "peanut-butter.png",
+        "brand" : "Nutsola",
+        "url" : "https://nutsola.com/products/peanut-butter"
+    },
+    {
+        "imageUrl" : "https://cdn.shopify.com/s/files/1/0090/2823/9465/products/nutsola_cacoa_almond_900x900_e8576450-9e2b-4b89-9cbd-7501f95c6865_720x.png?v=1560538734",
+        "name" : "Cacao Almond",
+        "pngFileName": "cacao.png",
+        "brand" : "Nutsola",
+        "url" : "https://nutsola.com/products/almond-cacao"
+    },
+    {
+        "imageUrl" : "https://cdn.shopify.com/s/files/1/0090/2823/9465/products/nutsola_vanilla_900x900_2c67888a-be77-47d4-98a4-3fb45bd88cc2_720x.png?v=1560538794",
+        "name" : "Vanilla Almond",
+        "pngFileName": "vanilla.png",
+        "brand" : "Nutsola",
+        "url" : "https://nutsola.com/products/vanilla-almond"
+    }]
+}
